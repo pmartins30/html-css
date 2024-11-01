@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+            #  = id
+            .  = classe
+            :  = pseudo-classe
+            :: = pseudo-element
+            >  = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: yellow;
+        }
+        
+        .especial{
+            background-color: rgb(252, 159, 159);
+            
+        }
+
+        .especial::before{
+            content: '✎';
+        }
+
+        .especial::after {
+            content: '✎';
+        }
+
+        .rede-social{
+            text-decoration: none;
+            background-color: rgb(80, 80, 172);
+            color: white;
+            font-weight: bold;
+        }
+
+        .rede-social:hover{
+            color: aqua;
+        }
+
+        .rede-social:active{
+            color: black;
+        }
+
+        .rede-social::after{
+            content: ' ✉ ';
+        }
+
+    .rede-social::before{
+        content: ' ✉ ';
+    }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="after">Repositório Github</a></li>
+        <li><a href="https://youtube.com/CursoemVideo" class="especial">Canal do Youtube</a></li>
+        <li><a href="www.cursoemvideo.com" class="especial">Site do CursoemVideo</a></li>
+        <li><a href="https://facebook.com" class="rede-social">facebook</a></li>
+    </ul>
+</body>
+</html>

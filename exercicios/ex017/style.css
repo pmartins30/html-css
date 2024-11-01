@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    /* 16px = 1em
+    Para tamanho de fontes, use sempre "em" pois ele é adaptável ao tamanho da tela. */
+}
+
+h1, h2{
+    font: italic bolder 3em 'work Sans', sans-serif;
+    /* Shorthand Font-style -> font-weight -> font-size -> font-family.  */
+}
