@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Qyery</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons md-18" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellat consequuntur similique non, blanditiis vitae odio laudantium possimus tempora ratione! Ducimus dolorem ex dignissimos delectus natus quaerat molestiae temporibus quos.
+            Porro quod doloribus, aliquid tenetur quas aspernatur deserunt repudiandae obcaecati reiciendis. Perferendis dolor dignissimos optio labore doloremque assumenda illum necessitatibus repellat pariatur molestias modi eveniet impedit veniam, aliquam voluptate eos.
+            Perspiciatis perferendis nesciunt sapiente alias cumque blanditiis eos laudantium error soluta nobis praesentium nostrum impedit, vel a, nisi quo architecto fuga! Perspiciatis provident quasi maiores cumque, ipsum autem. Vel, labore?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellat consequuntur similique non, blanditiis vitae odio laudantium possimus tempora ratione! Ducimus dolorem ex dignissimos delectus natus quaerat molestiae temporibus quos.
+            Porro quod doloribus, aliquid tenetur quas aspernatur deserunt repudiandae obcaecati reiciendis. Perferendis dolor dignissimos optio labore doloremque assumenda illum necessitatibus repellat pariatur molestias modi eveniet impedit veniam, aliquam voluptate eos.
+            Perspiciatis perferendis nesciunt sapiente alias cumque blanditiis eos laudantium error soluta nobis praesentium nostrum impedit, vel a, nisi quo architecto fuga! Perspiciatis provident quasi maiores cumque, ipsum autem. Vel, labore?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellat consequuntur similique non, blanditiis vitae odio laudantium possimus tempora ratione! Ducimus dolorem ex dignissimos delectus natus quaerat molestiae temporibus quos.
+            Porro quod doloribus, aliquid tenetur quas aspernatur deserunt repudiandae obcaecati reiciendis. Perferendis dolor dignissimos optio labore doloremque assumenda illum necessitatibus repellat pariatur molestias modi eveniet impedit veniam, aliquam voluptate eos.
+            Perspiciatis perferendis nesciunt sapiente alias cumque blanditiis eos laudantium error soluta nobis praesentium nostrum impedit, vel a, nisi quo architecto fuga! Perspiciatis provident quasi maiores cumque, ipsum autem. Vel, labore?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
