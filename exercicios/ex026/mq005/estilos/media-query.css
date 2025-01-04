@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+-----------------------------
+- **Small mobile**: 481–600 pixels for landscape mode
+- **Small tablets**: 601–768 pixels for portrait mode, used for tablets like the iPad Mini
+- **Large tablets**: 769–1024 pixels for landscape mode
+- **Small desktops and laptops**: 1025–1280 pixels, used for smaller laptops or desktops
+- **Large desktops**: 1281–1440 pixels, used for large desktop monitors and high-resolution screens
+- **Extra-large screens**: 1441 pixels and up, used for ultra-wide or high-definition monitors
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+
+} 
+
+
+
